@@ -30,12 +30,12 @@ Here are some predictions from the trained model:
 
 Follow these steps to set up the project locally:
 
-**Clone the repository**:
+1. **Clone the repository**:
     ```
     git clone "https://github.com/Buckyvs/Mask-No-Mask-Detection.git"
     ```
 
-**Install dependency**:
+2. **Install dependency**:
     ```
     pip install tensorflow keras opencv-python numpy matplotlib jupyter
     ```
