@@ -41,6 +41,15 @@ Follow these steps to set up the project locally:
 
 3. **Test with your own data** by updating the corresponding paths inside the notebook.
 
+## Sample Results
+
+Here are some predictions from the trained model:
+
+<img src="result_images/result1.png" alt="Prediction example 1" width="400"/>
+<img src="result_images/result2.png" alt="Prediction example 2" width="400"/>
+<img src="result_images/result3.png" alt="Prediction example 3" width="400"/>
+
+
 ## Technologies Used
 
 - Python 3.10
