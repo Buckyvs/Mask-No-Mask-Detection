@@ -5,7 +5,7 @@ This project implements a deep learning-based face mask detection system that id
 ## Features
 
 - Detects faces in images or video frames
-- Classifies detected faces as **mask**, **without_mask** and **mask_wear_incorrect**
+- Classifies detected faces as **with_mask**, **without_mask** and **mask_weared_incorrect**
 - Visualizes results with bounding boxes and labels right on the images
 - Easy to train and test using your own custom datasets
 - Modular, extensible codebase
