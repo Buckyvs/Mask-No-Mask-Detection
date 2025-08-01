@@ -5,7 +5,7 @@ This project implements a deep learning-based face mask detection system that id
 ## Features
 
 - Detects faces in images or video frames
-- Classifies detected faces as **wearing a mask** or **not wearing a mask**
+- Classifies detected faces as **mask**, **without_mask** and **mask_wear_incorrect**
 - Visualizes results with bounding boxes and labels right on the images
 - Easy to train and test using your own custom datasets
 - Modular, extensible codebase
@@ -14,8 +14,17 @@ This project implements a deep learning-based face mask detection system that id
 
 Follow these steps to set up the project locally:
 
+**Clone the repository**:
+    ```
+    git clone "https://github.com/Buckyvs/Mask-No-Mask-Detection.git"
+    ```
 
-*Make sure you have Python 3.x installed on your system.*
+**Install dependency**:
+    ```
+    pip install tensorflow keras opencv-python numpy matplotlib jupyter
+    ```
+
+**Make sure you have Python 3.10 installed on your system.**
 
 ## Usage
 
@@ -32,18 +41,10 @@ Follow these steps to set up the project locally:
 
 3. **Test with your own data** by updating the corresponding paths inside the notebook.
 
-## Configuration
-
-**Optional:** Customize the following directly in the notebook:
-- Dataset paths for training and testing
-- Model parameters (epochs, batch size, etc.)
-- Detection thresholds for face and mask classification
-- Output visualization styles
-
 ## Technologies Used
 
-- Python 3.x
-- TensorFlow and Keras (deep learning frameworks)
-- OpenCV (image processing and face detection)
-- NumPy and Matplotlib (data handling and visualization)
-- Jupyter Notebook (interactive development environment)
+- Python 3.10
+- TensorFlow and Keras 
+- OpenCV 
+- NumPy and Matplotlib 
+- Jupyter Notebook 
